@@ -130,6 +130,7 @@ PRODUCT_PACKAGES += \
     TelephonyResCommon \
     WifiResCommon \
     WifiResTopaz
+    NotchBarKiller
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
