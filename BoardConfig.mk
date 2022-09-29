@@ -46,9 +46,6 @@ SOONG_CONFIG_NAMESPACES += ufsbsg
 SOONG_CONFIG_ufsbsg += ufsframework
 SOONG_CONFIG_ufsbsg_ufsframework := bsg
 
-# Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
-
 # Bootloader
 PRODUCT_PLATFORM := bengal
 TARGET_BOOTLOADER_BOARD_NAME := topaz
@@ -82,6 +79,7 @@ BOARD_KERNEL_CMDLINE := \
     disable_dma32=on \
     bootinfo.fingerprint=$(EVO_VERSION) \
     mtdoops.fingerprint=$(EVO_VERSION)
+
 BOARD_BOOTCONFIG := \
     androidboot.hardware=qcom \
     androidboot.memcg=1 \
