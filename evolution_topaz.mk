@@ -15,12 +15,12 @@ EVO_BUILD_TYPE := OFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1440
 TARGET_SUPPORTS_QUICK_TAP := true
 
-# Inherit from marble device.
-$(call inherit-product, device/xiaomi/marble/device.mk)
+# Inherit from topaz device.
+$(call inherit-product, device/xiaomi/topaz/device.mk)
 
 ## Device identifier
-PRODUCT_DEVICE := marble
-PRODUCT_NAME := evolution_marble
+PRODUCT_DEVICE := topaz
+PRODUCT_NAME := evolution_topaz
 PRODUCT_MANUFACTURER := Xiaomi
 
 # GMS
