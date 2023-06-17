@@ -18,6 +18,13 @@ TARGET_SUPPORTS_QUICK_TAP := true
 # Inherit from topaz device.
 $(call inherit-product, device/xiaomi/topaz/device.mk)
 
+# Flags rom
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_USES_BLUR := true
+USE_PIXEL_CHARGING := true
+TARGET_SUPPORTS_QUICK_TAP := true
+
 ## Device identifier
 PRODUCT_DEVICE := topaz
 PRODUCT_NAME := evolution_topaz
