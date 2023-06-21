@@ -133,7 +133,7 @@ PRODUCT_PACKAGES += \
     TelecommResCommon \
     TelephonyResCommon \
     WifiResCommon \
-    WifiResTopaz
+    WifiResTopaz \
     NotchBarKiller
 
 # Partitions
