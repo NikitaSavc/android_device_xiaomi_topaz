@@ -74,10 +74,6 @@ PRODUCT_PACKAGES_DEBUG += \
 PRODUCT_PACKAGES += \
     GCamGOPrebuilt-V4
 
-# Dtb
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/prebuilts/dtb:dtb.img
-
 # DT2W
 PRODUCT_PACKAGES += \
     DT2W-Service-Topaz
