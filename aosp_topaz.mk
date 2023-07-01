@@ -21,6 +21,8 @@ $(call inherit-product, device/xiaomi/topaz/device.mk)
 ## Device identifier
 PRODUCT_DEVICE := topaz
 PRODUCT_NAME := aosp_topaz
+PRODUCT_BRAND := Redmi
+PRODUCT_MODEL := Redmi Note 12 4G
 PRODUCT_MANUFACTURER := Xiaomi
 
 # GMS
